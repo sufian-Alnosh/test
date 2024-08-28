@@ -1,6 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -33,3 +34,10 @@ app.get('/visitor-info', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+
+
+
+app.use(cors()); // هذا يسمح بطلبات CORS من أي نطاق
+
+// ما تبقى من تعريفات الراوتر والسيرفر
