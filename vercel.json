@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/visitor-data", "destination": "/public/visitor-data.html" },
-    { "source": "/", "destination": "/public/index.html" }
+    { "source": "/visitor-data", "destination": "/visitor-data.html" },
+    { "source": "/", "destination": "/index.html" }
   ]
 }
 
