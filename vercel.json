@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/visitor-info", "destination": "/api/visitor-info" },
-    { "source": "/visitor-data", "destination": "/public/visitor-data.html" }
+    { "source": "/visitor-data", "destination": "/public/visitor-data.html" },
+    { "source": "/", "destination": "/public/index.html" }
   ]
 }
